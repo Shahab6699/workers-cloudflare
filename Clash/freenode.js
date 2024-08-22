@@ -71,7 +71,7 @@ const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "S
 const addressList = ['www.ipchicken.com','www.udacity.com', 'edtunnel-dgp.pages.dev', 'iplocation.io', 'time.is', 'ip.sb', 'www.wto.org', 'icook.hk', 'skk.moe', 'fbi.gov', 'www.12377.cn']
 const fpList = ["chrome", "chrome", "chrome", "firefox", "safari", "edge", "ios", "android", "360", "qq", "random", "random"]
 const alpnList = ["http/1.1", "h2,http/1.1", "h2,http/1.1", "h2,http/1.1"]
-var cleanIPs = []
+var cleanIPs = [66.42.32.115]
 
 export default {
   async fetch(request) {
